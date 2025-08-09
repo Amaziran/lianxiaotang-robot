@@ -1,0 +1,2 @@
+# lianxiaotang-robot
+这是一个基于openai-chatGPT的智能语音对话机器人，可以基于Linux和windows系统运行
