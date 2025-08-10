@@ -1,5 +1,5 @@
 # lianxiaotang-robot
-这是一个基于openai-chatGPT的智能语音对话机器人，可以基于Linux和windows系统运行
+这是一个基于openai-chatGPT的智能语音对话机器人，可以基于Linux和windows系统运行\n
 感谢 潘伟洲 wukong-robot 语音机器人开源
 credit by https://github.com/wzpan/wukong-robot
 本项目基于wukong-robot进行了如下修改：
@@ -13,4 +13,5 @@ Console唤醒词与系统录音冲突问题解决：
 
 文件目录：
   ~/.wukong         .wukong文件一般位于主文件夹
+  
   ~/lianxiaotang-robot
