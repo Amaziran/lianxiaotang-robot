@@ -10,3 +10,7 @@ credit by https://github.com/wzpan/wukong-robot
 Console唤醒词与系统录音冲突问题解决：
   在进行唤醒后的语音录制过程中发现系统录音无法正常访问媒体设备，警告信息为；设备或资源忙。原因是因为 PvRecorder.stop 和 PvRecorder.delete 并不能完全释放占用的媒体资源。
   解决方法：在唤醒词唤醒成功之后，问答语音录制前使用 sudo fuser -k /dev/snd/pcm* 指令进行媒体强制释放
+
+文件目录：
+  lianxiaotang-robot/ ls : wukong.py
+  lianxiaotang-robot/robot ls : detector.py\LifeCycleHandler.py\Conversation.py\ASR.py\_init_.py
