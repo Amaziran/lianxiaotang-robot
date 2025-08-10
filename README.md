@@ -12,5 +12,5 @@ Console唤醒词与系统录音冲突问题解决：
   解决方法：在唤醒词唤醒成功之后，问答语音录制前使用 sudo fuser -k /dev/snd/pcm* 指令进行媒体强制释放
 
 文件目录：
-  lianxiaotang-robot/ ls : wukong.py
-  lianxiaotang-robot/robot ls : detector.py\LifeCycleHandler.py\Conversation.py\ASR.py\_init_.py
+  ~/.wukong         .wukong文件一般位于主文件夹
+  ~/lianxiaotang-robot
